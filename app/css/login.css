@@ -1,0 +1,105 @@
+/*******************************
+*******start myframework********
+********************************/
+
+
+/*end my frame work*/
+
+.main-color {
+    color: #cb0030 !important;
+}
+
+
+/*update bootstrap */
+
+
+/*end update*/
+
+
+/*header*/
+
+header {
+    padding-top: 20px;
+    background: url('../image/header_bg.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+
+/*end header*/
+
+
+/*start register*/
+
+.page-repair {
+    padding: 30px 0;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.page-repair .h1 {
+    margin-bottom: 20px;
+    color: #5f6469;
+    background: url('../image/head_side.png') center center no-repeat;
+    background-size: 72%;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    min-height: 74px;
+}
+
+.register .form-group,
+.login .form-group {
+    margin-bottom: 20px;
+}
+
+.register .form-group input,
+.login .form-group input {
+    height: 51px;
+}
+
+.register .button,
+.login .button {
+    width: 200px!important;
+    height: 50px;
+    font-size: 26px
+}
+
+
+/*end register*/
+
+
+/* start login */
+
+.login .form-group {
+    margin-bottom: 43px;
+}
+
+
+/*end login*/
+
+
+/*start footer*/
+
+footer {
+    font-size: 25x;
+    font-weight: 600;
+}
+
+.endingblack {
+    background: url('../image/footer.png') center center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    ;
+}
+
+
+/*end footer*/
+
+@media(max-width:576px) {
+    .page-repair .h1 {
+        font-size: 19px !important;
+        font-weight: 400 !important;
+        min-height: 41px !important;
+    }
+}

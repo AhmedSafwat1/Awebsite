@@ -1,0 +1,57 @@
+    /*******************************
+*******start myframework********
+********************************/
+    
+    body {
+        padding-top: 20px
+    }
+    
+    .main-color {
+        color: #cb0030 !important;
+    }
+    
+    .endingblack {
+        background: url('../image/footer.png') center center no-repeat;
+        background-size: cover;
+        min-height: 483px;
+    }
+    /*end my frame work*/
+    /*update bootstrap */
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #cb0030;
+    }
+    
+    body>div.container>div>div.col-md-8>table>thead>tr>th:nth-child(8) {
+        width: 78px
+        /*end update*/
+        /*start header*/
+    }
+    
+    header .headinfo {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    /*end header*/
+    /*start containtt*/
+    
+    .containt {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        min-height: 200px;
+        margin-top: 30px;
+        padding-top: 15px;
+    }
+    /*end containt*/
+    /*start footer*/
+    
+    footer {
+        padding: 20px 0;
+    }
+    
+    footer p {
+        background: #fff;
+    }
+    /*end footew ;
